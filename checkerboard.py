@@ -1,7 +1,8 @@
 import cv2
+import numpy as np 
+import matplotlib.pyplot as plt
 
-
-img = cv2.imread('m.png',0)
+img = np.zeros((800,800), dtype = 'uint8')
 
 
 height, width = img.shape
